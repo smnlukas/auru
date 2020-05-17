@@ -167,6 +167,12 @@ hr.light {
 
 
 
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
 .fixed-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
@@ -189,11 +195,10 @@ hr.light {
           transform: translateZ(0);
   will-change: transform;
 }
-
+/*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 1rem;
 }
-
 
 
 
