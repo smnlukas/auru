@@ -12,11 +12,13 @@
   <script src="pastas/jqBootstrapValidation.js"></script>
     <script src="pastas/contact_me.js"></script>
   <link href="style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
 
 	<!---meniu--->
-	  <nav class="navbar navbar-expand-md text-uppercase fixed-top" id="mainNav">
+	   <nav class="navbar navbar-expand-md text-uppercase fixed-top" id="mainNav">
             <div class="container-fluid">
                 <img src="img/logo1.png" width="15%">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +28,7 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3" href="index.html">Pradžia</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3" href="apie.html">Apie mus</a></li>
-                        <li class="nav-item dropdown mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3" href="produktai.html">produkcija</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3" href="produktai.html">produkcija</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3"  href="galerija.html">Galerija</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3"  href="kontaktai.html">Kontaktai</a></li>
                     </ul>
@@ -35,51 +37,59 @@
         </nav>
 <!---pagrindinis--->
 
-<header class="masthead d-flex" id="pradzia">
-    <div class="container text-center my-auto">
-      <h1 class="mb-1">Spaudos ir reklamos gamyba</h1>
-      <a class="btn btn-primary btn-lg" href="kontaktai.html">Susisiekti</a>
-    </div>
-    <div class="overlay"></div>
-  </header>
-<!---Kodel mes?-->
-<section class="callout">
-    <div class="container text-center">
-      <h2 class="mx-auto mb-5"><strong>Kodėl rinktis <em>mūsų spaustuvę?</em></strong></h2>
-    </div>
-  </section>
 
-	</div>
-</div>
-</section>
-<section class="showcase">
+<section class="showcase" id="apie">
+  <div class="apie">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
 
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/greitis.jpeg');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/17.jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h3>Greitis</h3>
-          <p class="lead mb-0">Esame naujai įsikūrusi įmonė su naujomis, greitomis spaudos mašinomis. Kadangi klientų ratas nėra didelis, beveik visus spaudos darbus atliekame tą pačią dieną (priklauso nuo užsakymo dydžio)</p>
+              <hr class="light1">
+          <h1>Spaustuvė Auru</h1>
+              <hr class="light1">
+          <p class="lead mb-0">Startavome 2020 metais, todėl esame dar jaunučiai ir tik bandantys įsitvirtinti spaudos versle. Nors kolektyvas ir nedidelis, jų aukštas kvalifikacijos lygis ir noras augti daro mus vis stipresniais. Labai vertiname ištikimybę ir laiko patvirtintas partnerystes. Verslo pakeleiviai kurie yra kartu su mumis ilgesnį laiko tarpą, gauna specialių pasiūlymų ir privilegijų.</p>
+              <hr class="light1">
         </div>
       </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/kokybe.jpg');"></div>
-        <div class="col-lg-6 my-auto showcase-text">
-          <h3>Kokybė</h3>
-          <p class="lead mb-0">Didžioji dalis spaudos kokybės priklauso ne nuo spaudos mašinų, bet nuo jos užbaigiamųjų darbų meistro. Mūsų darbuotojai yra sukaupę ilgametę patirtį ir žinias kurios jūsų nenuvils. Prieš atliekant užsakymą, galima atlikti jusų maketo testavimą ir įvertinti kokybę</p>
-        </div>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/naktis.jpg');"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h3>Atsidavimas</h3>
-          <p class="lead mb-0">Esat bėdai savo pastoviems klijantams galime padėti ir net naktį.</p>
-        </div>
-      </div><hr class="light2">
-    </div>
-  </section>
+  </div>
+</div>
+</section>
+</div>
+<div class="tm-container bg-white">
+  <hr class="light2">
+        <div class="tm-header-stripe w-100"></div>
+        <div class="container-fluid">
+            <!--Intro-->
+            <section class="row tm-mb-1">
+                <h2 class="col-12 text-center tm-text-primary tm-my-1 tm-intro-text"><strong>Spasutuvė Auru vertina</strong></h2>
+                <div class="col-lg-4 text-center">
+                    <div class="tm-box-1">
+                        <i class="fa fa-hourglass-half fa-4x tm-icon-1"></i>
+                        <h3 class="tm-h3 tm-text-primary">Punktualumą</h3>
+                        <p>Mes labai vertiname punktualumą, todėl visus produktus stengiamės atiduoti laiku</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="tm-box-1">
+                        <i class="fa fa-thumbs-up fa-4x tm-icon-1"></i>
+                        <h3 class="tm-h3 tm-text-primary">Kokybę</h3>
+                        <p>Iš visų jėgų viską stengiamės padaryti kokybiški. Jeigu reikia taisom.
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="tm-box-1">
+                        <i class="fa fa-tree fa-4x tm-icon-1"></i>
+                        <h3 class="tm-h3 tm-text-primary">Ekologiją</h3>
+                        <p>Mes jaučiame atsakomybę už aplinką ir skatiname visus rūpintis aplinkosauga.</p>
+                    </div>
+                </div>
+              </section>
+            </div>
+              </section>
+            </section>
 
-      
+
 <!---zemelapis-->
 <section id="contact" class="map">
     <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCy9r70T3NYf3PhvVflTo0_zdif2_IoIYs&q=place_id:ChIJnzkPQ4QY50YRDlqt8NK_pOg"></iframe>
@@ -118,7 +128,6 @@
     <p>+370 610 33322</p>
     <p>info@auru.lt</p>
   </div>
- 
 </div>
 </div>
 </footer>
@@ -126,6 +135,7 @@
             <div class="container"><small>Svetainė sukurta mokymosi tikslams 2020</small></div>
         </section>
 </body>
+</p>
 </html>
 
 
