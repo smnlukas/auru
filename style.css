@@ -221,11 +221,9 @@ hr.light2 {
 }
 
 .p-galerija {
-    padding: 20px;
+    padding: 10px;
 }
-.p-galerija img{
-  width: 40%;
-}
+
 .row1 .col-md-3{
    display:inline-block;
    vertical-align: middle;
