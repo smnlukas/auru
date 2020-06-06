@@ -225,7 +225,16 @@ hr.light2 {
 .p-galerija img{
   width: 70%;
 }
+.p-galerija .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
 
+}
 
 .p-galerija .thumbnail:hover {
     transform: translateY(-10px) scale(1.02);
