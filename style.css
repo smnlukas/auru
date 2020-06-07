@@ -108,7 +108,8 @@ color: #ffffff;
 }
 .showcase .showcase-text {
   padding: 3rem;
-
+    padding-right: 10px;
+  padding-left: 10px;
 }
 .showcase .showcase-img {
   min-height: 30rem;
@@ -220,16 +221,13 @@ hr.light2 {
 }
 
 .p-galerija {
-    padding: 5px;
+    padding: 10px;
 }
 
 .row1 .col-md-3{
    display:inline-block;
    vertical-align: middle;
    float: none;
-}
-.p-galerija img{
-  width: 70%;
 }
 
 
