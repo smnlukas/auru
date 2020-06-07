@@ -108,8 +108,8 @@ color: #ffffff;
 }
 .showcase .showcase-text {
   padding: 3rem;
-    padding-right: 10px;
-  padding-left: 10px;
+    padding-right: 40px;
+  padding-left: 40px;
 }
 .showcase .showcase-img {
   min-height: 30rem;
@@ -241,9 +241,12 @@ hr.light2 {
 .baguetteBox-button {
     background-color: transparent !important;
 }
+.p-galerija img{
+  width: 70%;
+}
 .kontaktai {
-
-padding: 200px;
+padding-top: 150px;
+padding: 10px;
 }
 .kontaktai a{
   color: #00264d;
