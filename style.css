@@ -220,13 +220,16 @@ hr.light2 {
 }
 
 .p-galerija {
-    padding: 10px;
+    padding: 5px;
 }
 
 .row1 .col-md-3{
    display:inline-block;
    vertical-align: middle;
    float: none;
+}
+.p-galerija img{
+  width: 70%;
 }
 
 
